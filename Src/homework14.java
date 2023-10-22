@@ -23,9 +23,7 @@ public class homework14 {
                 break;
             }
         }
-        for (int i = 0; i < array.length; i++) {
-            sum += array[i];
-        }
+        for (int i:array) sum += i;
         System.out.println("Число: "+ number + ", складається з цифр: "+ Arrays.toString(array)+ ", сумма яких: " + sum);
     }
 }
